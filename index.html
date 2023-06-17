@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="discription" content="Это сайт фотографа Дмитрия Мишанкина">
+    <meta name="keywords" content="Фотография, творчество, фотосессия, фотосъемка, фотограф">
+    <title>DM Photo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="avatar.jpg" alt="Аватар" class="avatar">
+            <div class="info-text">
+                <h1>Dmitriy Mishankin Photography</h1>
+                <p>Я фотограф любитель с опытом съемки в различных стилях</p>
+                <p>Для записи на фотосессию пройдите по <a href="#" class="link-zap">ссылке</a></p>
+                <p><strong>Я в социальных сетях:</strong></p>
+                <p>
+                    <a href="https://vk.com/id26000902" target="_blank">Вконтакте |</a>
+                    <a href="https://web.telegram.org" target="_blank">Telegram</a>
+                </p>
+             </div>
+        </div>
+
+        <div class="card bg-green">
+        <h2>Мои хобби:</h2>
+        <ol class="list">
+            <li>IT</li>
+            <li>Инвестирование</li>
+            <li>Путешествия</li>
+        </ol>
+        </div>
+        
+        <div class="card bg-yellow"> 
+        <h2>Опыт работы:</h2>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td>Иинститут</td>
+                    <td>Студент</td>
+                    <td>2011-2016</td>
+                </tr>
+                <tr>
+                    <td>Сахалинская область</td>
+                    <td>Строитель</td>
+                    <td>2016-2018</td>
+                </tr>
+                <tr>
+                    <td>Сахалинская область</td>
+                    <td>Старший строитель</td>
+                    <td>2018-сейчас</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+        <form class="form">
+            <h2>Связаться со мной</h2>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="name">Ваше имя:</label>
+                    <input type="text" id="name" placeholder="Введите имя">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Ваш email:</label>
+                    <input type="email" id="email" placeholder="Введите email">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="masseg">Ваше сообщение:</label>
+                <textarea id="masseg" cols="35" rows="5" placeholder="Введите сообщение..."></textarea>
+            </div>
+
+            <button type="submit" class="btn">Отправить!</button>
+
+        </form>
+    </div>
+</body>
+</html>
